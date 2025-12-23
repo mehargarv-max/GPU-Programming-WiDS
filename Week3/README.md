@@ -144,13 +144,48 @@ week3/
  ├── shared_memory.cu
  ├── cpu_baseline.py
 ```
+---
+
+## 📚 Optional but Highly Recommended (Week 3)
+
+### **1. CUDA Best Practices Guide — Memory Optimizations**
+
+
+📄 Link:
+[https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/](https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/)
+
+Relevant sections:
+
+* *Memory Optimizations*
+* *Occupancy*
+* *Performance Guidelines*
 
 ---
 
-## 📚 **Optional but Highly Recommended**
+### **2. Nsight Compute — Basic Walkthrough**
 
-* CUDA Best Practices Guide — Memory Optimizations
-* Nsight Compute walkthrough (basic metrics only)
-* NVIDIA blog posts on shared memory and bank conflicts
+Learn how to profile kernels and interpret key GPU metrics.
+
+📄 Official Documentation:
+[https://docs.nvidia.com/nsight-compute/NsightCompute/index.html](https://docs.nvidia.com/nsight-compute/NsightCompute/index.html)
+
+🎥 Introductory Tutorial (NVIDIA):
+[https://developer.nvidia.com/blog/using-nsight-compute-to-inspect-your-kernels/](https://developer.nvidia.com/blog/using-nsight-compute-to-inspect-your-kernels/)
+
+
 ---
+
+### **3. NVIDIA Blog — Shared Memory & Bank Conflicts**
+
+
+📄 Shared Memory Overview:
+[https://developer.nvidia.com/blog/using-shared-memory-cuda-cc/](https://developer.nvidia.com/blog/using-shared-memory-cuda-cc/)
+
+📄 Bank Conflicts Explained:
+[https://developer.nvidia.com/blog/avoiding-bank-conflicts-cuda/](https://developer.nvidia.com/blog/avoiding-bank-conflicts-cuda/)
+
+These two posts alone explain **90% of practical shared memory performance issues**.
+
+
+
 
