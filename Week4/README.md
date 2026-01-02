@@ -79,77 +79,8 @@ Look for:
 * Structured parallelism (tiles, blocks, subproblems)
 * Shared memory reuse across threads
 * Compute intensity vs memory traffic
-* Kernel fusion (conceptual)
 * Benchmarking methodology
 * Performance vs correctness trade-offs
-
----
-
-## **What You Will Build This Week**
-
-You will implement **at least one real compute kernel** that resembles a real research or ML workload, such as:
-
-* Tiled matrix multiplication (GEMM)
-* Softmax 
-* Block-wise reduction or normalization
-
-You will then:
-
-* Benchmark it on GPU
-* Compare against CPU and/or PyTorch
-* Analyze where the speedup comes from
-
----
-
-## **Week 4 Assignment (Summary)**
-
-### **Task 1 — Implement a Real Compute Kernel**
-
-Choose **one** kernel:
-
-* Matrix multiplication 
-* Softmax
-* Reduction / normalization
-
-Requirements:
-
-* CUDA implementation
-* Correctness verification
-* Clear kernel structure
-
----
-
-### **Task 2 — Shared Memory Optimization**
-
-* Start with a naïve global-memory version
-* Implement a shared-memory optimized version
-* Use synchronization correctly
-* Explain the optimization strategy
-
----
-
-### **Task 3 — Benchmarking & Analysis**
-
-* Compare:
-
-  * GPU naive
-  * GPU optimized
-  * CPU or PyTorch baseline
-* Report:
-
-  * Execution time
-  * Speedup
-* Brief analysis of bottlenecks
-
-## 📁 **Submission Folder**
-
-```
-week4/
- ├── assignment4.pdf
- ├── kernel_naive.cu
- ├── kernel_optimized.cu
- ├── correctness_check.py
-```
 
 ---
 
